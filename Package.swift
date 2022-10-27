@@ -9,7 +9,13 @@ let package = Package(
     products: [
         .library(
             name: "Predictive",
-            targets: ["EXPCore", "EXPPredictive"]),
+            targets: ["EXPCore", "EXPUtilities", "EXPIngestionLogger", "EXPPredictive"]),
+        .library(
+            name: "Digital",
+            targets: ["EXPCore", "EXPUtilities", "EXPIngestionLogger", "EXPDigital"]),
+        .library(
+            name: "DBA",
+            targets: ["EXPCore", "EXPUtilities", "EXPIngestionLogger", "EXPDiagnosticLogger", "EXPDBA"]),
     ],
     targets: [
         .binaryTarget(
