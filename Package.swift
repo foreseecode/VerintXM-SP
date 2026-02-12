@@ -11,10 +11,10 @@ let package = Package(
         .library(name: "EXPSurveyManagement", targets: ["EXPSurveyManagement", "EXPCore", "EXPPredictive", "EXPIngestionLogger", "EXPUtilities"])
     ],
     targets: [
-        .binaryTarget(name: "EXPSurveyManagement", url: "https://foresee-developer-mobile-sdk.s3.amazonaws.com/sdk/iOS/spm/7.7.1/EXPSurveyManagement.xcframework.zip", checksum: "3fa340273a122c1b9f5e9c815d0625d15464c1261c12986c6c6f6da169c03ab3"),
-        .binaryTarget(name: "EXPCore", url: "https://foresee-developer-mobile-sdk.s3.amazonaws.com/sdk/iOS/spm/7.7.1/EXPCore.xcframework.zip", checksum: "05f889d6f3c37183eb00dd495818aa7462199cfb6ec3cf600e41601a2ffd05a8"),
-        .binaryTarget(name: "EXPPredictive", url: "https://foresee-developer-mobile-sdk.s3.amazonaws.com/sdk/iOS/spm/7.7.1/EXPPredictive.xcframework.zip", checksum: "61f197de48bf4b5413563a163cfab20bc4e15a816f0917b7f2b1f0d750790dff"),
-        .binaryTarget(name: "EXPIngestionLogger", url: "https://foresee-developer-mobile-sdk.s3.amazonaws.com/sdk/iOS/spm/7.7.1/EXPIngestionLogger.xcframework.zip", checksum: "fa9477c1249f351133a4facee907df64f9de0a3e960346e44bd761ccbee012b6"),
-        .binaryTarget(name: "EXPUtilities", url: "https://foresee-developer-mobile-sdk.s3.amazonaws.com/sdk/iOS/spm/7.7.1/EXPUtilities.xcframework.zip", checksum: "fb0cbf38d83d4ea661467123ecc9dd02200d8c76d22e9376f1bb960752737829")
+        .binaryTarget(name: "EXPSurveyManagement", url: "https://foresee-developer-mobile-sdk.s3.amazonaws.com/sdk/iOS//7.7.1/EXPSurveyManagement.xcframework.zip", checksum: "c1bfcc9127f93f73ed6a9dcce0ce81238976ca13aff3c05f9af9aa9e95163393"),
+        .binaryTarget(name: "EXPCore", url: "https://foresee-developer-mobile-sdk.s3.amazonaws.com/sdk/iOS//7.7.1/EXPCore.xcframework.zip", checksum: "b3c9e07a9cf36406f7119cddad58a026e208a76af139b8e3be2742d3b0f313ba"),
+        .binaryTarget(name: "EXPPredictive", url: "https://foresee-developer-mobile-sdk.s3.amazonaws.com/sdk/iOS//7.7.1/EXPPredictive.xcframework.zip", checksum: "7d563d5039d3b1ffd3c99783a6da3592ec5bed18262eadd5050ce13d111d91d7"),
+        .binaryTarget(name: "EXPIngestionLogger", url: "https://foresee-developer-mobile-sdk.s3.amazonaws.com/sdk/iOS//7.7.1/EXPIngestionLogger.xcframework.zip", checksum: "732ea1a6c7b0d2d784e4e362cbd63c7f0825d58c7e934f027241ecba1e3635e4"),
+        .binaryTarget(name: "EXPUtilities", url: "https://foresee-developer-mobile-sdk.s3.amazonaws.com/sdk/iOS//7.7.1/EXPUtilities.xcframework.zip", checksum: "4c46e8127260c51491cf33d7519a6feb03e714b557ea05785ce85cf014d27f79")
     ]
 )
