@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "Verint-XM",
     platforms: [
-        .iOS(.v13.0)
+        .iOS(.v13)
     ],
     products: [
         .library(name: "Verint-XM", targets: ["EXPSurveyManagement", "EXPCore", "EXPPredictive", "EXPIngestionLogger", "EXPUtilities"]),
