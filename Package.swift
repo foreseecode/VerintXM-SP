@@ -2,12 +2,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "Verint-XM",
+    name: "VerintXM",
     platforms: [
         .iOS(.v13)
     ],
     products: [
-        .library(name: "Verint-XM", targets: ["EXPSurveyManagement", "EXPCore", "EXPPredictive", "EXPIngestionLogger", "EXPUtilities"]),
+        .library(name: "VerintXM", targets: ["EXPSurveyManagement", "EXPCore", "EXPPredictive", "EXPIngestionLogger", "EXPUtilities"]),
         .library(name: "EXPSurveyManagement", targets: ["EXPSurveyManagement", "EXPCore", "EXPPredictive", "EXPIngestionLogger", "EXPUtilities"])
     ],
     targets: [
