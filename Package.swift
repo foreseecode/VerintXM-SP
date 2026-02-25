@@ -7,8 +7,7 @@ let package = Package(
         .iOS(.v13)
     ],
     products: [
-        .library(name: "VerintXM", targets: ["EXPSurveyManagement", "EXPCore", "EXPPredictive", "EXPIngestionLogger", "EXPUtilities"]),
-        .library(name: "EXPSurveyManagement", targets: ["EXPSurveyManagement", "EXPCore", "EXPPredictive", "EXPIngestionLogger", "EXPUtilities"])
+        .library(name: "VerintXM", targets: ["EXPSurveyManagement", "EXPCore", "EXPPredictive", "EXPIngestionLogger", "EXPUtilities"])
     ],
     targets: [
         .binaryTarget(name: "EXPSurveyManagement", url: "https://foresee-developer-mobile-sdk.s3.amazonaws.com/sdk/iOS/7.7.0/EXPSurveyManagement.xcframework.zip", checksum: "0f65b3eef24c1ecb4a9123abe4486128ec2fa75e38c83485acfe049d731909c2"),
