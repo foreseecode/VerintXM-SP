@@ -1,2 +1,2 @@
-# VerintXM-SP
-Swift Package for the Verint XM iOS SDK
+# Verint-Digital-Journey
+Swift Package for Verint's Digital Journey SDK for iOS
