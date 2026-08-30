@@ -2,12 +2,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "VerintXM",
+    name: "Verint-Digital-Journey",
     platforms: [
         .iOS(.v15)
     ],
     products: [
-        .library(name: "VerintXM", targets: ["EXPSurveyManagement", "EXPCore", "EXPPredictive", "EXPIngestionLogger", "EXPUtilities"])
+        .library(name: "Verint-Digital-Journey", targets: ["EXPSurveyManagement", "EXPCore", "EXPPredictive", "EXPIngestionLogger", "EXPUtilities"])
     ],
     targets: [
         .binaryTarget(name: "EXPSurveyManagement", url: "https://foresee-developer-mobile-sdk.s3.amazonaws.com/sdk/iOS/8.0.0/EXPSurveyManagement.xcframework.zip", checksum: "460a95c24ece956303c11e37621806723116093715110dbe995c6f2f93bd18cb"),
